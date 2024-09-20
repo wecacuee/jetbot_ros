@@ -7,6 +7,10 @@
   <maintainer email="dustinf@nvidia.com">Dustin Franklin</maintainer>
   <license>MIT</license>
 
+  <depend>ros_gz_bridge</depend>
+  <depend>ros_gz_image</depend>
+  <depend>ros_gz_sim</depend>
+
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>

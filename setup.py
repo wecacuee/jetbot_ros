@@ -6,7 +6,8 @@ import os
 
 package_name = 'jetbot_ros'
 
-def generate_data_files(dirs=['launch', 'gazebo/worlds', 'gazebo/models']):
+def generate_data_files(dirs=['launch', 'gazebo/worlds', 'gazebo/models',
+                              'params']):
     """
     Generate recursive list of data files, without listing directories in the output.
     """

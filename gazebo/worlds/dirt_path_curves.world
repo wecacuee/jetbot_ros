@@ -13,14 +13,14 @@
 
 		<!-- A global light source -->
 		<include>
-			<uri>model://sun</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Sun</uri>
 		</include>
 		
 		<!-- A ground plane -->
 		<include>
-			<uri>model://ground_plane_grass</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Ground Plane</uri>
 		</include>
-		
+
 		<!-- A dirt path -->
 		<include>
 			<uri>model://dirt_path_curves</uri>
